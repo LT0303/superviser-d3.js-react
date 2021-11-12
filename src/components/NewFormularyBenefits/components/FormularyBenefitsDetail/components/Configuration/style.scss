@@ -1,0 +1,40 @@
+.configuration-drug-table {
+  margin-top: 20px;
+
+  .button-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .benefit-configuration-search {
+    border: 1px solid #e5e5e5;
+    outline: none;
+    border-radius: 2px;
+
+    input {
+      font-size: 12px;
+      font-weight: normal;
+      color: #999999;
+      border-bottom: 0;
+      padding: 0;
+    }
+  }
+
+  .benefit-search-icon {
+    margin: 10px;
+  }
+
+  .configuration-grid-container {
+    padding: 0px 15px;
+  }
+
+  .input-link {
+    text-decoration: underline dotted !important;
+    color: #1d54b4;
+    font-weight: 500;
+    font-size: 12px;
+    display: block;
+    margin-top: 18px;
+  }
+}

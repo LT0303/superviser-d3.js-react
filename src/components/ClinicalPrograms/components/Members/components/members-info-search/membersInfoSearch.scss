@@ -1,0 +1,65 @@
+
+.member-search-area {
+    display: flex;
+    margin: 14px 12px;
+
+    .row-1 {
+        justify-content: flex-start;
+    }
+    .row-2 {
+        justify-content: flex-start;
+    }
+
+    .test-claim-button {
+        border-radius: 5px;
+        box-sizing: border-box;
+        border: 1px solid #1D54B4;
+        background: #FFFFFF;
+        padding: 10px 20px;
+        align-items: center;
+        display: flex;
+        flex-direction: row;
+        width: 78px;
+        height: 34px;
+        color: #1D54B4;
+        font-size: 12px;
+        line-height: 14px;
+        letter-spacing: 0.01em;
+        margin: 5px;
+      }
+
+    .ant-input {
+        width: 170px;
+        height: 35px;
+        color: #999999;
+        line-height: 14px;
+        font-size: 12px;
+        margin: 5px;
+        padding-left: 10px;
+    }
+    
+    .select-box .ant-select {
+        // height: 35px;
+        width: 170px;
+        margin: 5px;
+    }
+    .select-box > .ant-select > .ant-select-selector {
+        height: 35px;
+        width: 170px;
+    }
+    .select-box > .ant-select > .ant-select-arrow {
+        top: 62%;
+    }
+    .ant-select-single .ant-select-selector .ant-select-selection-item, .ant-select-single .ant-select-selector .ant-select-selection-placeholder {
+        line-height: 35px;
+    }
+    .ant-picker {
+        width: 170px;
+        height: 35px;
+        margin: 5px;
+        svg {
+            height: 20px;
+            width: 18px;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+[
+    {
+        "title": "Age",
+        "options":{
+            "title": "Is this RX or OTC",
+            "data": ["RX","OTC","Both"]
+        }
+    }
+]

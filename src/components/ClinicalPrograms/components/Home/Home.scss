@@ -1,0 +1,52 @@
+.home-container{
+    float: left;
+    padding: 85px 80px 20px 90px;
+    width: 100%;
+    height: fit-content;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+
+    .content-wrapper{
+        width: 100%;
+        float: left;
+        display: flex;
+        margin-bottom: 90px;
+
+        .icon-wrapper{
+            width: 112px;
+            text-align: right;
+        }
+        .text-wrapper{
+            margin-left: 63px;
+            margin-top:10px;
+            &.set-top-margin{
+                margin-top: 0px;
+            }
+            &.set-pharmacy-top-margin{
+                margin-top: 5px;
+            }
+            p{
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 14px;
+                letter-spacing: 0.02em;
+                color: #666666;
+                width: 263px;
+                margin-top: 10px;
+                word-wrap: break-word;
+
+                &.set-width{
+                    width: 324px;
+                }
+            }
+            span{     
+                font-weight: bold;
+                font-size: 30px;
+                line-height: 35px;
+                letter-spacing: 0.02em;
+                color: #7B9FB3;              
+            }
+        }
+    }
+}

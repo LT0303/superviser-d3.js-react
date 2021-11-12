@@ -1,0 +1,11 @@
+.member-detail-container{
+    float: left;
+    padding-top: 20px;
+    width: 100%;
+    height: fit-content;
+
+    .demo-row-box {
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,329 @@
+.frx-grid-mytasks-detail {
+  &__subtask-list {
+    padding: 20px;
+    border-right: 1px solid #e5e5e5;
+    .subtask-row {
+      width: 100%;
+      height: 35px;
+      padding-top: 27px;
+      padding-left: 24px;
+      .add-new-task {
+        color: #1d54b4;
+        font-size: 12px;
+        font-weight: bold;
+        line-height: 20px;
+      }
+    }
+
+    .task-detail-item,
+    .subtask-detail-item {
+      display: flex;
+      width: 100%;
+      height: 35px;
+      padding-top: 7px;
+      padding-left: 8px;
+      .statusIcon {
+        position: relative;
+        float: left;
+        width: 16px;
+        height: 100%;
+        padding-top: 7px;
+      }
+      label {
+        position: relative;
+        float: left;
+        width: 110px;
+        height: 100%;
+        padding-top: 7px;
+        color: #323c47;
+        font-weight: 500;
+      }
+      .taskPicWrapper {
+        position: relative;
+        float: left;
+        width: 50px;
+        height: 100%;
+        span {
+          float: left;
+          width: 25px;
+          height: 25px;
+          border-radius: 50%;
+        }
+      }
+      .eyeIcon {
+        position: relative;
+        float: left;
+        width: 20px;
+        line-height: 0;
+      }
+      p {
+        position: relative;
+        float: left;
+        width: 110px;
+        height: 100%;
+        padding-top: 5px;
+        color: #323c47;
+        font-weight: normal;
+        line-height: 20px;
+      }
+      .lockIcon {
+        position: relative;
+        float: left;
+        width: 10px;
+        height: 100%;
+        padding-top: 7px;
+        margin-left: 10px;
+      }
+    }
+  }
+  &__subtask-detail {
+    padding-left: 25px;
+    color: #707683;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    border-right: 1px solid #e5e5e5;
+    .taskAssigned {
+      padding-top: 30px;
+    }
+    .searchWrapper {
+      display: flex;
+      flex-direction: row;
+      width: 220px;
+      height: 40px !important;
+      margin-top: 9px;
+      .ant-select-selector {
+        border: 1px solid #e5e5e5;
+        border-radius: 28px;
+        .ant-select-selection-item {
+          .nameIcon {
+            span {
+              float: left;
+              width: 26px;
+              height: 26px;
+              margin-left: 8px;
+              color: white;
+              font-size: 15px;
+              font-weight: 500;
+              line-height: 26px;
+              text-align: center;
+              background-color: #1fbbc4;
+              border-radius: 50%;
+            }
+          }
+        }
+      }
+      .ant-select-arrow {
+        top: 40%;
+      }
+    }
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+      margin-top: 10px;
+      .columnWrapper {
+        position: relative;
+        float: left;
+        width: 70%;
+        margin-top: 10px;
+        .rowOne {
+          display: flex;
+          flex-direction: row;
+        }
+        .rowTwo {
+          display: flex;
+          flex-direction: row;
+          margin-top: 10px;
+          .spanTwo {
+            position: relative;
+            float: right;
+            color: #5f80b9;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+          }
+        }
+      }
+      .remaining {
+        margin-top: 5px;
+        label {
+          position: relative;
+          float: left;
+          margin-bottom: 5px;
+          color: #707683;
+          font-size: 12px;
+          line-height: 20px;
+          text-transform: uppercase;
+        }
+        .statusLabel {
+          margin-top: 15px;
+        }
+      }
+      .spacer {
+        flex: 1 1;
+      }
+    }
+    .descriptionWrapper {
+      display: flex;
+      flex-direction: row;
+      margin-top: 15px;
+      .description {
+        position: relative;
+        float: left;
+        width: 90%;
+        p {
+          color: #323c47;
+          font-size: 12px;
+          font-weight: normal;
+          line-height: 20px;
+        }
+      }
+    }
+    .createdWrapper {
+      display: flex;
+      flex-direction: row;
+      margin-top: 13px;
+      .columnWrapper {
+        position: relative;
+        float: left;
+        width: 71%;
+        .rowOne {
+          display: flex;
+          flex-direction: row;
+          color: #707683;
+          font-size: 12px;
+          line-height: 20px;
+          text-transform: uppercase;
+          .spacer {
+            flex: 1 1;
+          }
+        }
+        .rowTwo {
+          display: flex;
+          flex-direction: row;
+          margin-top: 7px;
+          color: #323c47;
+          font-size: 14px;
+          line-height: 20px;
+          .spacer {
+            flex: 1 1;
+          }
+        }
+      }
+    }
+    .statusControlWrapper {
+      margin-top: 15px;
+    }
+    .reasonControlWrapper {
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 15px;
+      .spacer {
+        padding-right: 10px;
+        padding-left: 10px;
+      }
+    }
+  }
+  &__subtask-submitform {
+    padding: 20px;
+    padding-left: 25px;
+    color: #707683;
+    font-family: "Roboto";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    border-right: 1px solid #e5e5e5;
+    input {
+      width: 100%;
+      min-height: 32px;
+    }
+    .ant-form-item-control-input-content {
+      div {
+        width: 100%;
+        min-height: 32px;
+      }
+    }
+    button {
+      position: relative;
+      float: right;
+      width: 104px;
+      height: 34px;
+      margin-left: 10px;
+      color: #fff;
+      font-weight: 500;
+      letter-spacing: .01em;
+      background: #1d54b4;
+      border: none;
+      border-radius: 5px;
+    }
+    label {
+      color: #707683;
+      font-size: 12px;
+      line-height: 20px;
+      text-transform: uppercase;
+    }
+  }
+  &__subtask-notes {
+    padding-left: 25px;
+    color: #707683;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: normal;
+    .workFlowNotes {
+      position: relative;
+      width: 100%;
+      height: 75px;
+      padding-top: 30px;
+      color: #707683;
+      text-transform: uppercase;
+    }
+    .workflowNotelist {
+      overflow-y: auto;
+      width: 100%;
+      height: 370px;
+    }
+    .workflowNoteForm {
+      input {
+        position: relative;
+        float: left;
+        width: 242px;
+        height: 34px;
+        border: 1px solid #c4c4c4;
+      }
+      button {
+        position: relative;
+        float: left;
+        width: 104px;
+        height: 34px;
+        margin-left: 10px;
+        color: #fff;
+        font-weight: 500;
+        letter-spacing: .01em;
+        background: #1d54b4;
+        border: none;
+        border-radius: 5px;
+      }
+    }
+  }
+}
+
+.ant-select-dropdown {
+  .ant-select-item {
+    .nameIcon {
+      span {
+        float: left;
+        width: 26px;
+        height: 26px;
+        margin-left: 8px;
+        color: white;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 26px;
+        text-align: center;
+        background-color: #1fbbc4;
+        border-radius: 50%;
+      }
+    }
+  }
+}
